@@ -11,7 +11,7 @@ process = +,-,*,/;
 
 ```
 import("stdfaust.lib");
-process = *(1) : /(1) : +(1) : -(1);
+process = * : +(0.5) : -(1) : /(3) ;
 ```
 
 ##### 3. Scrivi un programma che esegua due operazioni in sequenza e producano un segnale in uscita identico a quello in entrata
