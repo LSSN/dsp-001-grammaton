@@ -25,12 +25,12 @@ process = *(1) : +(0);
 
 ```
 import("stdfaust.lib");
-process =
+process = *(0.5), *(0.5), *(0.5), *(0.5);
 ```
 
 ##### 5. Scrivi un programma che abbia 4 entrate ed una sola uscita, somma delle 4 entrate.
 
 ```
 import("stdfaust.lib");
-process =
+process = +, + : +;
 ```
