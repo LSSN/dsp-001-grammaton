@@ -18,7 +18,7 @@ process = * : +(0.5) : -(1) : /(3) ;
 
 ```
 import("stdfaust.lib");
-process =
+process = *(1) : +(0);
 ```
 
 ##### 4. Scrivi un programma che abbia 4 segnali un entrata, ne dimezzi l'ampiezza e li porti in uscita su quattro canali separati
